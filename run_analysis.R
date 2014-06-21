@@ -31,7 +31,7 @@ names(data) = c("subject_num","activity_label",vnames[extract_names])
 # step 5: creates a second independent data set with the average of each variable
 subject_all = levels(factor(data[,1]))
 activity_all = levels(factor(data[,2]))
-combinations = cbind(subjec_num = rep(subject_all,each = length(activity_all)),activity_all)
+combinations = cbind(subjec_num = rep(subject_all,each = length(activity_all)),activity_labels = activity_all)
 
 average = vector()
 for (i in 1:dim(combinations)[1]) {
