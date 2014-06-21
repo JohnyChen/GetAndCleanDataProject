@@ -1,7 +1,7 @@
 GetAndCleanDataProject
 ======================
 
-Put the **UCI HAR Dataset** folder in your working directory
+Put the **UCI HAR Dataset** folder in your working directory  
 Use `read.table("./UCI HAR Dataset/data_average.txt")` to read the processed data set.
 
 ---
